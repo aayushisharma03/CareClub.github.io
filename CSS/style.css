@@ -49,8 +49,8 @@
   }
   .top-section{
     background-color:aliceblue;
-    padding-left-0;
-    padding-right-0;
+    padding-left:0;
+    padding-right:0;
 
   }
   #sectyle{
@@ -66,8 +66,8 @@
 }
 .ressec{
   
-  padding-left-0;
-  padding-right-0;
+  padding-left:0;
+  padding-right:0;
 
 }
 .main-form{
@@ -80,4 +80,35 @@
   background-color: white;
   border-color: black;
   font-size: 20px;
+}
+/* This section is for logo  */
+@media screen and (min-width:250px) and (max-width:785px){
+    .aayu{
+      width: 100px!important;
+      margin-left:-1rem !important;
+    }
+    .aayu1{
+      margin-left: 0px !important;
+    }
+    
+    .aayu2{
+      font-size: 26px !important;
+    } 
+    .aayu3{
+     font-size: 8px !important;
+     margin-left: 0.2rem!important;
+    }
+    .aayu4{
+      margin-left :-4.2rem !important;
+    }   
+}
+.aayu{
+  width:150px;
+}
+.aayu1{
+  margin-left:3rem;
+}
+.aayu3{
+  margin-left: 0.7rem;
+  font-size: 0.7rem;
 }
