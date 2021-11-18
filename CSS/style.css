@@ -82,7 +82,7 @@
   font-size: 20px;
 }
 /* This section is for logo  */
-@media screen and (min-width:400px) and (max-width:785px){
+@media screen and (min-width:250px) and (max-width:785px){
     .aayu{
       width: 100px!important;
       margin-left:-1rem !important;
